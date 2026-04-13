@@ -16,3 +16,6 @@ A command-line cybersecurity awareness chatbot that educates users about online 
 - Input validation
 - Coloured console interface
 - Typing effect for conversational feel
+- ## CI Workflow Screenshot
+
+- <img width="681" height="98" alt="image" src="https://github.com/user-attachments/assets/aacccd8f-ed3d-4eec-b177-0324eb2a887c" />
