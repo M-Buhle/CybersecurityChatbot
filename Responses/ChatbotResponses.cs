@@ -21,6 +21,12 @@ namespace CybersecurityChatbot.Responses
                return "I'm your Cybersecurity Awareness Assistant! I can help you learn about password safety, phishing scams, and safe browsing practices.";
            else if (input.Contains("what can i ask"))
                return "You can ask me about: passwords, phishing, safe browsing, or just say hello!";
+           else if (input.Contains("malware"))
+               return "Malware is harmful software designed to damage your device. Always keep your antivirus updated and never download files from unknown sources!";
+           else if (input.Contains("vpn"))
+               return "A VPN (Virtual Private Network) encrypts your internet connection, keeping your data safe especially on public WiFi networks.";
+           else if (input.Contains("two factor") || input.Contains("2fa"))
+               return "Two-Factor Authentication (2FA) adds an extra layer of security. Always enable it on your important accounts!";   
            else
                return "I didn't quite understand that. Could you rephrase? Try asking about passwords, phishing, or safe browsing.";
        }
