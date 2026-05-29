@@ -1,9 +1,9 @@
 name: .NET Build Check
 on:
  push:
-   branches: [ main ]
+   branches: [ main, part2 ]
  pull_request:
-   branches: [ main ]
+   branches: [ main, part2 ]
 jobs:
  build:
    runs-on: windows-latest
@@ -13,6 +13,10 @@ jobs:
      uses: actions/setup-dotnet@v3
      with:
        dotnet-version: '9.0.x'
+   - name: Install .NET 11 Preview
+     run: |
+       Invoke-WebRequest -Uri https://dot.net/v1/dotnet-install.ps1 -OutFile dotnet-install.ps1
+       ./dotnet-install.ps1 -Version 11.0.100-preview.2.26159.112
    - name: Restore dependencies
      run: dotnet restore
    - name: Build
