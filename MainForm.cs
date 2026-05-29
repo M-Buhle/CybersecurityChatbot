@@ -99,6 +99,16 @@ namespace CybersecurityChatbot
            sendButton.FlatStyle = FlatStyle.Flat;
            sendButton.FlatAppearance.BorderSize = 0;
            sendButton.Click += (s, e) => SendMessage();
+           // === Sentiment Status Label ===
+           Label sentimentLabel = new Label();
+           sentimentLabel.Name = "sentimentLabel";
+           sentimentLabel.Text = "Mood: Neutral";
+           sentimentLabel.ForeColor = Color.Gray;
+           sentimentLabel.BackColor = Color.Transparent;
+           sentimentLabel.Font = new Font("Consolas", 9);
+           sentimentLabel.Location = new Point(10, 580);
+           sentimentLabel.Size = new Size(200, 20);
+           this.Controls.Add(sentimentLabel);
            // === Add controls to form ===
            this.Controls.Add(asciiLabel);
            this.Controls.Add(titleLabel);
