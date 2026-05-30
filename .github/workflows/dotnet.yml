@@ -1,4 +1,4 @@
-ame: .NET Build Check
+Name: .NET Build Check
 on:
  push:
    branches: [ main, part2 ]
