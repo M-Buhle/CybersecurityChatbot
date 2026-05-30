@@ -1,4 +1,4 @@
-Name: .NET Build Check
+name: .NET Build Check
 on:
  push:
    branches: [ main, part2 ]
