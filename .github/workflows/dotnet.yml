@@ -1,4 +1,4 @@
-name: .NET Build Check
+ame: .NET Build Check
 on:
  push:
    branches: [ main, part2 ]
@@ -9,14 +9,11 @@ jobs:
    runs-on: windows-latest
    steps:
    - uses: actions/checkout@v3
-   - name: Setup .NET
-     uses: actions/setup-dotnet@v3
-     with:
-       dotnet-version: '9.0.x'
    - name: Install .NET 11 Preview
      run: |
        Invoke-WebRequest -Uri https://dot.net/v1/dotnet-install.ps1 -OutFile dotnet-install.ps1
-       ./dotnet-install.ps1 -Version 11.0.100-preview.2.26159.112
+       ./dotnet-install.ps1 -Version 11.0.100-preview.2.26159.112 -InstallDir "$env:USERPROFILE/.dotnet"
+       echo "$env:USERPROFILE/.dotnet" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
    - name: Restore dependencies
      run: dotnet restore
    - name: Build
