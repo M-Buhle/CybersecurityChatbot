@@ -19,3 +19,7 @@ A command-line cybersecurity awareness chatbot that educates users about online 
 - ## CI Workflow Screenshot
 
 - <img width="681" height="98" alt="image" src="https://github.com/user-attachments/assets/aacccd8f-ed3d-4eec-b177-0324eb2a887c" />
+
+## Part 2 CI Workflow screenshot
+
+<img width="948" height="75" alt="image" src="https://github.com/user-attachments/assets/156fdba0-f533-45a9-986f-51ffb5531b7a" />
