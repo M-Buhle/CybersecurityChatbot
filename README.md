@@ -23,3 +23,12 @@ A command-line cybersecurity awareness chatbot that educates users about online 
 ## Part 2 CI Workflow screenshot
 
 <img width="948" height="75" alt="image" src="https://github.com/user-attachments/assets/156fdba0-f533-45a9-986f-51ffb5531b7a" />
+
+## Part 2 Updates
+- Added WinForms GUI with dark cybersecurity theme
+- Implemented keyword recognition for passwords, phishing, malware, VPN, privacy, scams
+- Added random responses using Lists for varied interactions
+- Implemented conversation flow with follow-up questions
+- Added memory and recall of user name and favourite topic
+- Implemented sentiment detection for worried, frustrated, curious
+- Enhanced error handling and code optimisation using OOP
