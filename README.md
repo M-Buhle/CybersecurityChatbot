@@ -32,3 +32,10 @@ A command-line cybersecurity awareness chatbot that educates users about online 
 - Added memory and recall of user name and favourite topic
 - Implemented sentiment detection for worried, frustrated, curious
 - Enhanced error handling and code optimisation using OOP
+
+## Part 3 Updates
+- Added Task Assistant with JSON storage (add, view, complete, delete tasks)
+- Added Cybersecurity Quiz with 12 questions, scoring and feedback
+- Added NLP simulation with flexible keyword detection
+- Added Activity Log with timestamps showing last 10 actions
+- All Parts 1, 2 and 3 integrated seamlessly
