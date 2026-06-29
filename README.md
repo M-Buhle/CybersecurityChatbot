@@ -38,4 +38,6 @@ A command-line cybersecurity awareness chatbot that educates users about online 
 - Added Cybersecurity Quiz with 12 questions, scoring and feedback
 - Added NLP simulation with flexible keyword detection
 - Added Activity Log with timestamps showing last 10 actions
-- All Parts 1, 2 and 3 integrated seamlessly
+- All Parts 1, 2 and 3 integrated 
+
+<img width="955" height="100" alt="image" src="https://github.com/user-attachments/assets/b075e5eb-ccf6-47b9-a054-a63834b47694" />
